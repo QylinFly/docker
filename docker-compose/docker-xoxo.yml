@@ -1,0 +1,28 @@
+version: '2'
+services:
+  xoxo-api:
+    domainname: web-xoxo.com
+    hostname: web-xoxo
+    container_name: web-xoxo
+    restart: always
+    image: php7-fpm
+    external_links:
+      - ctr-web-mysql
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.101
+    ports:
+      - "9001:9000"
+    environment:
+      - WEBROOT=/var/www/html/public
+    volumes:
+      - /srv/Qylin/universe/project/xoxo/api/:/var/www/html/
+
+networks:
+  app_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.16.0.0/24
+        gateway: 172.16.0.1   

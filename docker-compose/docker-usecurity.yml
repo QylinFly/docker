@@ -1,0 +1,28 @@
+version: '2'
+services:
+  usecurity-api:
+    domainname: web-usecurity.com
+    hostname: web-usecurity
+    container_name: web-usecurity
+    restart: always
+    image: php-ffmpeg-v1-t3
+    external_links:
+      - ctr-web-mysql
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.100
+    ports:
+      - "9000:9000"
+    environment:
+      - WEBROOT=/var/www/html/public
+    volumes:
+      - /srv/Qylin/universe/project/u-security/api/:/var/www/html/
+
+networks:
+  app_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.16.0.0/24
+        gateway: 172.16.0.1   

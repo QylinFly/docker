@@ -1,0 +1,63 @@
+version: '2'
+services:
+  web-mysql:
+    domainname: web-mysql.com
+    hostname: web-mysql
+    container_name: ctr-web-mysql
+    restart: always
+    image: mysql
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.2
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=PASSWORD
+      - MYSQL_DATABASE=db
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=123456
+    volumes:
+      - /srv/Qylin/data/mysql/datadir:/var/lib/mysql
+      
+  redis:
+    domainname: web-redis.com
+    hostname: web-redis
+    container_name: ctr-web-redis
+    restart: always
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.22
+    ports:
+      - "6379:6379"
+    image: redis:3.2.5-alpine
+    command:  redis-server --requirepass nosmoking1@A!
+    volumes:
+      - /srv/Qylin/data/redis:/data
+
+  activemq:
+    domainname: web-activemq.com
+    hostname: web-activemq
+    container_name: ctr-web-activemq
+    restart: always
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.33
+    ports:
+      - "61616:61616"
+      - "8161:8161"
+      - "1883:1883"
+      - "5672:5672"
+      - "61613:61613"
+      - "61614:61614"
+    image: rmohr/activemq:5.14.1-alpine
+    volumes:
+      - /srv/Qylin/data/redis:/data
+
+networks:
+  app_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.16.0.0/24
+        gateway: 172.16.0.1
