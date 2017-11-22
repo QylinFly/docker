@@ -25,3 +25,5 @@ What about an error message?
 
 ![](/assets/alipay.jpeg)
 
+![](/assets/wechatpay.jpeg)
+
