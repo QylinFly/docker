@@ -74,4 +74,13 @@ en, ar, bn, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, 
 "gitbook" : ">=3.0.0"
 ```
 
+## structure
+指定 Readme、Summary、Glossary 和 Languages 对应的文件名，下面是这几个文件对应变量以及默认值：
+
+| 变量 | 含义和默认值 |
+|:----|:----|
+|`structure.readme` | `Readme file name (defaults to README.md)` |
+|`structure.summary` | `Summary file name (defaults to SUMMARY.md)`|
+|`structure.glossary`| `Glossary file name (defaults to GLOSSARY.md)` |
+|`structure.languages`| `Languages file name (defaults to LANGS.md)`|
 
