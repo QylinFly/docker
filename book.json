@@ -6,10 +6,12 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
      },
-    "plugins": ["myplugin"],
-    "pluginsConfig": {
-        "myPlugin": {
-            "message": "Hello World"
-        }
-     }    
+  "plugins": ["editlink"],
+  "pluginsConfig": {
+    "editlink": {
+      "base": "https://github.com/zhaoda/webpack-handbook/edit/master/content",
+      "label": "Edit This Page",
+      "multilingual": false
+    }
+  }
 }
