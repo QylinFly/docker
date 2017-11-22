@@ -19,7 +19,8 @@
      "splitter",
      "tbfed-pagefooter",
      "toggle-chapters",
-     "donate"
+     "donate",
+     "versions-select"
     ],
     "pluginsConfig": {
       "editlink": {
@@ -49,7 +50,19 @@
             "button": "赏",
             "alipayText": "支付宝打赏",
             "wechatText": "微信打赏"
-        }
+    },
+    "versions": {
+            "options": [
+                {
+                    "value": "http://gitbook.zhangjikai.com",
+                    "text": "v3.2.3"
+                },
+                {
+                    "value": "http://gitbook.zhangjikai.com/v2/",
+                    "text": "v2.6.4"
+                }
+            ]
+    },
     }
     
 }
