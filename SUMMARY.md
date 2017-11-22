@@ -7,5 +7,6 @@
 ## 分享
 
 * [虚拟化](share/virtualization.md)
-  * [发展史](share/virtualization/fa-zhan-shi.md)
+  * [硬件级虚拟化](share/virtualization/ying-jian-ji-xu-ni-hua.md)
+  * [操作系统级虚拟化](share/virtualization/cao-zuo-xi-tong-ji-xu-ni-hua.md)
 
