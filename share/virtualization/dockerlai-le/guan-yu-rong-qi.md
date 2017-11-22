@@ -10,7 +10,7 @@
 
 
 
-![](/assets/about-docker.png){:height="100px" width="400px"}
+![-w150](/assets/about-docker.png)
 
 
 
