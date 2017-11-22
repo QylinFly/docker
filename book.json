@@ -56,13 +56,9 @@
     "versions": {
             "options": [
                 {
-                    "value": "http://gitbook.zhangjikai.com",
-                    "text": "v3.2.3"
+                    "value": "",
+                    "text": "v1.0"
                 },
-                {
-                    "value": "http://gitbook.zhangjikai.com/v2/",
-                    "text": "v2.6.4"
-                }
             ]
     },
     "simple-page-toc": {
