@@ -15,3 +15,7 @@ v-center image
 
 hyper-v image
 
+
+## 硬件级别虚拟化的结构图
+
+![](/assets/VirtualMachines.png)
