@@ -20,7 +20,8 @@
      "tbfed-pagefooter",
      "toggle-chapters",
      "donate",
-     "versions-select"
+     "versions-select",
+     "simple-page-toc"
     ],
     "pluginsConfig": {
       "editlink": {
@@ -62,7 +63,11 @@
                     "text": "v2.6.4"
                 }
             ]
-    }
+    },
+    "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
     }
     
 }
