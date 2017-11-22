@@ -6,9 +6,9 @@
 
 ## Share
 
-    * [test](share/a.md)
-    * [test](share/a.md)
-    * [test](share/a.md)
+* [test](share/a.md)
+* [test](share/a.md)
+* [test](share/a.md)
 
 
 
