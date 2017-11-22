@@ -15,7 +15,8 @@
     "github",
     "disqus",
     "-search",
-    "search-pro"
+    "search-pro",
+     "splitter"
     ],
     "pluginsConfig": {
       "editlink": {
