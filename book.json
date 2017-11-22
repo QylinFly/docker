@@ -1,7 +1,7 @@
 {
     "author" : "QylinFly",
     "language" : "zh-hans",
-    "gitbook": "3.2.3",
+    "gitbook": "2.6.7",
     "styles": {
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",
