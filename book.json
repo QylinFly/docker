@@ -11,7 +11,9 @@
     "mermaid",
     "-sharing",
     "github",
-    "disqus"
+    "disqus",
+    "-search",
+    "search-pro"
     ],
     "pluginsConfig": {
       "editlink": {
@@ -24,7 +26,11 @@
       },
       "disqus": {
         "shortName": "gitbookuse"
-      }
+      },
+      "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["Gitbook Use"]
+    }
     }
     
 }
