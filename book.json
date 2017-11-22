@@ -10,7 +10,8 @@
     "editlink",
     "mermaid",
     "-sharing",
-    "github"
+    "github",
+    "disqus"
     ],
     "pluginsConfig": {
       "editlink": {
@@ -20,7 +21,10 @@
       },
       "github": {
         "url": "https://github.com/zhangjikai"
-    }
+      },
+      "disqus": {
+        "shortName": "gitbookuse"
+      }
     }
     
 }
