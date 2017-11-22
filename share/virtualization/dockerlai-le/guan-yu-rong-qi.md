@@ -10,7 +10,7 @@
 
 
 
-![-w150](/assets/about-docker.png)
+![img -w150](/assets/about-docker.png)
 
 
 
