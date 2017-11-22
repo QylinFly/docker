@@ -10,7 +10,7 @@
 
 
 
-![](/assets/about-docker.png = 200x300)
+![](/assets/about-docker.png){:height="100px" width="400px"}
 
 
 
