@@ -24,7 +24,8 @@
         "donate",
         "versions-select",
         "simple-page-toc",
-        "terminal"
+        "terminal",
+        "toc"
     ],
     "pluginsConfig": {
      "theme-default": {
@@ -74,7 +75,11 @@
         "copyButtons": true,
         "fade": false,
         "style": "flat"
-    }
+    },
+    "toc": {
+            "addClass": true,
+            "className": "toc"
+   }
     
     }
 }
