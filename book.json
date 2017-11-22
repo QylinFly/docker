@@ -27,8 +27,8 @@
         "terminal"
     ],
     "pluginsConfig": {
-         "theme-default": {
-            "showLevel": true
+     "theme-default": {
+        "showLevel": true
     },
     "editlink": {
         "base": "https://github.com/QylinFly/docker",
