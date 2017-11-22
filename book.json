@@ -6,13 +6,21 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
      },
-    "plugins": ["editlink"],
+    "plugins": [
+    "editlink",
+    "mermaid",
+    "-sharing",
+    "github"
+    ],
     "pluginsConfig": {
       "editlink": {
         "base": "https://github.com/QylinFly/docker",
         "label": "Edit This Page",
         "multilingual": false
-      }
+      },
+      "github": {
+        "url": "https://github.com/zhangjikai"
+    }
     }
     
 }
