@@ -17,7 +17,8 @@
     "-search",
     "search-pro",
      "splitter",
-     "tbfed-pagefooter"
+     "tbfed-pagefooter",
+     "toggle-chapters"
     ],
     "pluginsConfig": {
       "editlink": {
