@@ -1,7 +1,7 @@
 {
     "author" : "QylinFly",
     "language" : "zh-hans",
-    "gitbook": "2.6.7",
+    "gitbook": "3.2.3",
     "styles": {
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",
@@ -26,6 +26,9 @@
      "terminal"
     ],
     "pluginsConfig": {
+     "theme-default": {
+            "showLevel": true
+        },
       "editlink": {
         "base": "https://github.com/QylinFly/docker",
         "label": "Edit This Page",
