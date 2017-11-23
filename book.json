@@ -16,7 +16,7 @@
         "github",
         "-disqus",
         "search",
-        "-search-pro",
+        "search-pro",
         "multipart",
         "splitter",
         "tbfed-pagefooter",
