@@ -48,6 +48,10 @@
     // 后台执行 -d
     docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
     
+        localhost:~ qylinqylin$ docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
+    baaa25a9d57e4039522dd65f8a9a965be3e1edc84975c44d8eff71ddab7c7f51
+    localhost:~ qylinqylin$
+    
 
     
     
