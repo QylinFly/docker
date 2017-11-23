@@ -13,8 +13,8 @@ services:
     volumes:
       - /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/docker-compose/datadir:/var/lib/mysql
   phpmyadmin:
-    links:
-      - wordpress_db:mysql
+    depends_on:
+      - wordpress_db
     ports:
       - "5556:80"
     image: corbinu/docker-phpmyadmin
