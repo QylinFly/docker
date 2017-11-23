@@ -62,7 +62,7 @@
     localhost:~ qylinqylin$ docker ps -a    
 
 
-    // 修改nginx启动参数
+    // 修改nginx启动参数  例如开启gzip
     
     
     
