@@ -3,7 +3,7 @@ services:
   wordpress:
     image: wordpress
     links:
-      - wordpress_db:mysql
+      - "wordpress_db:mysql"
     ports:
       - "5555:80"
   wordpress_db:
