@@ -59,7 +59,6 @@
     
     // 查看所有容器 包含未启动
     docker ps -a
-
     localhost:~ qylinqylin$ docker ps -a    
 
     
