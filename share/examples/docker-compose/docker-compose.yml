@@ -25,6 +25,8 @@ services:
     image: mariadb
     environment:
       MYSQL_ROOT_PASSWORD:nosmoking
+    volumes:
+      # - /srv/Qylin/data/mysql/datadir:/var/lib/mysql
 
   activemq:
     domainname: web-activemq.com
