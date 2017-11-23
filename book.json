@@ -25,7 +25,8 @@
         "versions-select",
         "simple-page-toc",
         "terminal",
-        "toc"
+        "toc",
+        "image-captions"
     ],
     "pluginsConfig": {
      "theme-default": {
