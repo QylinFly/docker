@@ -83,7 +83,7 @@
    },
    "image-captions": {
       "attributes": { "width": "300" },
-      "align": "center"
+      "align": "center",
       "caption": "Image - _CAPTION_"
    }
     
