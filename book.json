@@ -14,7 +14,7 @@
         "mermaid",
         "-sharing",
         "github",
-        "disqus",
+        "-disqus",
         "search",
         "-search-pro",
         "multipart",
