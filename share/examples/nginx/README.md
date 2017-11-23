@@ -57,6 +57,10 @@
     baaa25a9d57e        nginx:1.13.7-alpine   "nginx -g 'daemon ..."   18 seconds ago      Up 15 seconds       0.0.0.0:5555->80/tcp                       my-nginx001
     localhost:~ qylinqylin$ 
     
+    // 查看所有容器 包含未启动
+    docker ps -a
+
+    localhost:~ qylinqylin$ docker ps -a    
 
     
     
