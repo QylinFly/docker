@@ -18,6 +18,8 @@ hyper-v image
 
 ![](/assets/VirtualMachines.png)
 
+<img src="/assets/VirtualMachines.png" width="200" height="100" />
+
 <figure>
     <img src="/assets/VirtualMachines.png" alt="Phra Nakhon Khiri, Phetchaburi">
     <figcaption>Image - Phra Nakhon Khiri, Phetchaburi</figcaption>
