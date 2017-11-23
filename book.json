@@ -15,7 +15,7 @@
         "-sharing",
         "github",
         "-disqus",
-        "search",
+        "-search",
         "search-pro",
         "multipart",
         "splitter",
