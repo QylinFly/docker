@@ -104,7 +104,7 @@
 
 
 
-    //构建一个自己的镜像
+    //构建一个自己的镜像 Dockerfile
     cd /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx
     docker build -t hwl-nginx:1.0 .
 
