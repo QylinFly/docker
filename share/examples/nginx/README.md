@@ -98,6 +98,9 @@
     localhost:~ qylinqylin$ docker stop my-nginx001
     my-nginx001
     localhost:~ qylinqylin$ docker rm my-nginx001
+    
+    // 这些还不够，我们要加载我们的页面才可以
+    
 
     
     
