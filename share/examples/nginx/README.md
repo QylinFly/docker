@@ -69,6 +69,28 @@
     docker exec -it my-nginx001 /bin/sh
 
     localhost:~ qylinqylin$ docker exec -it my-nginx001 /bin/sh
+    / # ls -al
+    total 60
+    drwxr-xr-x   33 root     root          4096 Nov 23 07:13 .
+    drwxr-xr-x   33 root     root          4096 Nov 23 07:13 ..
+    -rwxr-xr-x    1 root     root             0 Nov 23 07:07 .dockerenv
+    drwxr-xr-x    2 root     root          4096 Oct 25 22:05 bin
+    drwxr-xr-x    5 root     root           340 Nov 23 07:07 dev
+    drwxr-xr-x   20 root     root          4096 Nov 23 07:07 etc
+    drwxr-xr-x    2 root     root          4096 Oct 25 22:05 home
+    drwxr-xr-x    6 root     root          4096 Nov 22 19:17 lib
+    drwxr-xr-x    5 root     root          4096 Oct 25 22:05 media
+    drwxr-xr-x    2 root     root          4096 Oct 25 22:05 mnt
+    dr-xr-xr-x  144 root     root             0 Nov 23 07:07 proc
+    drwx------    2 root     root          4096 Nov 23 07:13 root
+    drwxr-xr-x    2 root     root          4096 Oct 25 22:05 run
+    drwxr-xr-x    2 root     root          4096 Oct 25 22:05 sbin
+    drwxr-xr-x    2 root     root          4096 Oct 25 22:05 srv
+    dr-xr-xr-x   12 root     root             0 Nov 23 07:07 sys
+    drwxrwxrwt    2 root     root          4096 Nov 22 19:17 tmp
+    drwxr-xr-x   13 root     root          4096 Nov 22 19:17 usr
+    drwxr-xr-x   16 root     root          4096 Nov 23 07:07 var
+    / # 
     
     
     
