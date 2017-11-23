@@ -44,10 +44,6 @@
     "disqus": {
         "shortName": "Docker"
     },
-    /*"search-pro": {
-    //    "cutWordLib": "nodejieba",
-    //    "defineWord" : ["Gitbook Use"]
-    },*/
     "tbfed-pagefooter": {
         "copyright":"Copyright &copy I-Vectors.com 2017",
         "modify_label": "该文件修订时间：",
