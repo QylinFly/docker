@@ -19,3 +19,8 @@ vs vm 更小，安装更容易更快、同一台宿主机器可以安装更多�
 实验新版本新特征、新软件，而不必影响现有使用的版本
 
 容器可以转换成镜像--好处是不用dockerfile直接进入容器内部部署环境---
+
+
+
+//最全文档
+https://docs.docker.com/get-started/part4/#understanding-swarm-clusters
