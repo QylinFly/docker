@@ -16,11 +16,7 @@ hyper-v image
 
 ## 硬件级别虚拟化的结构图
 
-![](/assets/VirtualMachines.png)
-
-<img src="/assets/VirtualMachines.png" width="200" height="100" />
-
 <figure>
-    <img src="/assets/VirtualMachines.png" width="200" height="200"  alt="Phra Nakhon Khiri, Phetchaburi">
+    <img src="/assets/VirtualMachines.png" width="400" height="400"  alt="Phra Nakhon Khiri, Phetchaburi">
     <figcaption>Image - Phra Nakhon Khiri, Phetchaburi</figcaption>
 </figure>
