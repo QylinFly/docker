@@ -78,9 +78,12 @@
         "style": "flat"
     },
     "toc": {
-            "addClass": true,
-            "className": "toc"
+        "addClass": true,
+        "className": "toc"
+   },
+   "image-captions": {
+      "caption": "Image - _CAPTION_"
    }
     
-    }
+  }
 }
