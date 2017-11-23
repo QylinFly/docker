@@ -102,6 +102,12 @@
     // 这些还不够，我们要加载我们的页面才可以
     docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples//nginx/html:/usr/share/nginx/html:ro -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
 
+
+
+    //构建一个自己的镜像
+    docker build -t hwl-nginx:1.0 .
+    
+    docker build -t hwl-nginx:1.0 -f Dockerfile
     
     
     
