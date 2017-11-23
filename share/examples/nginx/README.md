@@ -108,6 +108,7 @@
     cd /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx
     docker build -t hwl-nginx:1.0 .
 
+    docker run -d --name my-nginx001 -p 5555:80 hwl-nginx:1.0
     
     
     
