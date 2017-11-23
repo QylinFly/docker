@@ -61,9 +61,6 @@
     docker ps -a
     localhost:~ qylinqylin$ docker ps -a    
 
-
-    // 修改nginx启动参数  例如开启gzip
-    
     
     // 进入容器
     docker exec -it my-nginx001 /bin/sh
