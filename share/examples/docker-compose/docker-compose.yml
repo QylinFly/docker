@@ -36,6 +36,8 @@ services:
     networks:
       app_net:
         ipv4_address: 172.16.0.22
+    links:
+      - wordpress_db:mysql
     ports:
       - "5556:80"
     image: corbinu/docker-phpmyadmin
