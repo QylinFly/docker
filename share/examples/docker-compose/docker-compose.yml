@@ -6,14 +6,12 @@ services:
       - wordpress_db:mysql
     ports:
       - "5555:80"
-
   wordpress_db:
     image: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: nosmoking
     volumes:
       - /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/docker-compose/datadir:/var/lib/mysql
-
   phpmyadmin:
     links:
       - wordpress_db:mysql
