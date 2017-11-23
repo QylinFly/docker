@@ -45,6 +45,8 @@
     172.17.0.1 - - [23/Nov/2017:07:03:28 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "-"
     172.17.0.1 - - [23/Nov/2017:07:03:30 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "-"
 
+    // 后台执行 -d
+    docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
     
 
     
