@@ -61,6 +61,8 @@
     docker ps -a
     localhost:~ qylinqylin$ docker ps -a    
 
+
+    // 修改nginx启动参数
     
     
     
