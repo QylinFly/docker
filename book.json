@@ -82,6 +82,7 @@
         "className": "toc"
    },
    "image-captions": {
+      "attributes": { "width": "300" },
       "caption": "Image - _CAPTION_"
    }
     
