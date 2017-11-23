@@ -106,8 +106,7 @@
 
     //构建一个自己的镜像
     docker build -t hwl-nginx:1.0 .
-    
-    docker build -t hwl-nginx:1.0 -f Dockerfile
+
     
     
     
