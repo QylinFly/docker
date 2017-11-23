@@ -52,6 +52,12 @@
     baaa25a9d57e4039522dd65f8a9a965be3e1edc84975c44d8eff71ddab7c7f51
     localhost:~ qylinqylin$
     
+    localhost:~ qylinqylin$ docker ps
+    CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                                      NAMES
+    baaa25a9d57e        nginx:1.13.7-alpine   "nginx -g 'daemon ..."   18 seconds ago      Up 15 seconds       0.0.0.0:5555->80/tcp                       my-nginx001
+    83924bd4dced        nginx-php7-fpm:ssl    "/start.sh"              3 months ago        Up 7 minutes        0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp   ctr-web-nginx-php7
+    localhost:~ qylinqylin$ 
+    
 
     
     
