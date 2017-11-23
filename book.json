@@ -26,7 +26,8 @@
         "simple-page-toc",
         "terminal",
         "toc",
-        "image-captions"
+        "image-captions",
+        "maxiang"
     ],
     "pluginsConfig": {
      "theme-default": {
