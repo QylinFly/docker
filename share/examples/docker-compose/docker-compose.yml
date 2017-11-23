@@ -26,7 +26,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD:nosmoking
     volumes:
-      # - /srv/Qylin/data/mysql/datadir:/var/lib/mysql
+      - /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/docker-compose/datadir:/var/lib/mysql
 
   phpmyadmin:
     domainname: web-phpmyadmin.com
