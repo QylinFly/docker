@@ -23,7 +23,7 @@ services:
       app_net:
         ipv4_address: 172.16.0.21
     image: mariadb
-    environment:  
+    environment:
       MYSQL_ROOT_PASSWORD:nosmoking
 
   activemq:
