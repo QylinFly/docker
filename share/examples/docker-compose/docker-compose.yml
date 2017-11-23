@@ -1,27 +1,13 @@
 version: '2'
 services:
   wordpress:
-    domainname: web-wordpress.com
-    hostname: web-wordpress
-    container_name: ctr-web-wordpress
-    restart: always
     image: wordpress
     links:
       - wordpress_db:mysql
-    networks:
-      app_net:
-        ipv4_address: 172.16.0.20
     ports:
       - "5555:80"
 
   wordpress_db:
-    domainname: web-wordpress-db.com
-    hostname: web-wordpress-db
-    container_name: ctr-web-wordpress-db
-    restart: always
-    networks:
-      app_net:
-        ipv4_address: 172.16.0.21
     image: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: nosmoking
@@ -29,13 +15,6 @@ services:
       - /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/docker-compose/datadir:/var/lib/mysql
 
   phpmyadmin:
-    domainname: web-phpmyadmin.com
-    hostname: web-phpmyadmin
-    container_name: ctr-web-phpmyadmin
-    restart: always
-    networks:
-      app_net:
-        ipv4_address: 172.16.0.22
     links:
       - wordpress_db:mysql
     ports:
@@ -44,12 +23,3 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=nosmoking
       - MYSQL_USERNAME=root
-
-networks:
-  app_net:
-    driver: bridge
-    ipam:
-      driver: default
-      config:
-      - subnet: 172.16.0.0/24
-        gateway: 172.16.0.1
