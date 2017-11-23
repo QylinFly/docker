@@ -28,24 +28,20 @@ services:
     volumes:
       # - /srv/Qylin/data/mysql/datadir:/var/lib/mysql
 
-  activemq:
-    domainname: web-activemq.com
-    hostname: web-activemq
-    container_name: ctr-web-activemq
+  phpmyadmin:
+    domainname: web-phpmyadmin.com
+    hostname: web-phpmyadmin
+    container_name: ctr-web-phpmyadmin
     restart: always
     networks:
       app_net:
-        ipv4_address: 172.16.0.33
+        ipv4_address: 172.16.0.22
     ports:
-      - "61616:61616"
-      - "8161:8161"
-      - "1883:1883"
-      - "5672:5672"
-      - "61613:61613"
-      - "61614:61614"
-    image: rmohr/activemq:5.14.1-alpine
-    volumes:
-      - /srv/Qylin/data/redis:/data
+      - "5556:80"
+    image: corbinu/docker-phpmyadmin
+    environment:
+      - MYSQL_ROOT_PASSWORD=nosmoking
+      - MYSQL_USERNAME=root
 
 networks:
   app_net:
