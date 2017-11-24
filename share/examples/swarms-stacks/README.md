@@ -5,3 +5,6 @@ docker stack deploy -c docker-compose.yml getstartedlab
 
 docker stack rm getstartedlab
 docker swarm leave --force
+
+
+集群服务
