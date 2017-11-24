@@ -6,14 +6,19 @@
 
 容器将软件与其周围环境隔离开来，例如开发环境和登台环境之间的差异，并有助于减少在同一基础架构上运行不同软件的团队之间的冲突。
 
-##### ![](/assets/about-docker.png)
+
+<figure>
+    <img src="/assets/about-docker.png" width="600" height="600"  alt="Docker">
+    <figcaption>Image - Docker</figcaption>
+</figure>
+
 
 | 轻量级 | 标准 | 安全 |
 | :---: | :---: | :---: |
 | 在一台机器上运行的Docker容器共享该机器的操作系统内核;他们立即开始，并使用更少的计算和内存。图像是从文件系统层构建的，并共享公共文件。这最大限度地减少了磁盘使用，图像下载速度更快。 | Docker容器基于开放标准，可运行在所有主要Linux发行版，Microsoft Windows以及包括虚拟机，裸机和云中的任何基础架构上。 | Docker容器将应用程序彼此隔离并从底层基础架构中分离出来。Docker提供了最强大的默认隔离功能，可以将应用程序问题限制在一个容器中，而不是整个机器上。 |
 
 ## Docker引擎
-![](/assets/engine-components-flow.png)
+
 <figure>
     <img src="/assets/engine-components-flow.png" width="600" height="600"  alt="Docker引擎">
     <figcaption>Image - Docker引擎</figcaption>
