@@ -5,9 +5,6 @@
     docker pull nginx:1.13.7-alpine
     
     // docker 未启动
-    localhost:~ qylinqylin$ docker pull nginx:1.13.7-alpine
-    Warning: failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
-    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
     
 ```
 **[terminal]
@@ -15,7 +12,6 @@
 **[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
     Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
 ```
-
 
 
 //正在加载
@@ -28,47 +24,26 @@ b1f00a6a160c: Pull complete
 893ab8d8734b: Downloading 2.817 MB/4.778 MB
 5bd0e3e256d9: Download complete 
 79c4e9920d30: Download complete 
+Digest: sha256:f1ca87d9adb678b180c31bf21eb9798b043c22571f419ed844bca1d103f2a2f7
+Status: Downloaded newer image for nginx:1.13.7-alpine
 ```
 
-
-
-        
-    // 
-    localhost:~ qylinqylin$ docker pull nginx:1.13.7-alpine
-    1.13.7-alpine: Pulling from library/nginx
-    b1f00a6a160c: Pull complete 
-    893ab8d8734b: Downloading 2.817 MB/4.778 MB
-    5bd0e3e256d9: Download complete 
-    79c4e9920d30: Download complete 
-    
     
     ```
 **[terminal]
-**[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
-]
-Normal output line. Nothing special here...
-But...
-You can add some colors. What about a warning message?
-**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
-    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
-
-**[error [ERROR] This is not the error you are looking for]
+**[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker images]
+REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+nginx                          1.13.7-alpine       bf85f2b6bf52        11 hours ago        15.5 MB
+gcr.io/tensorflow/tensorflow   1.3.0               1bb38d61d261        3 months ago        1.21 GB
+gcr.io/tensorflow/tensorflow   latest              ea40dcc45724        9 months ago        1.03 GB
+rmohr/activemq                 5.14.1-alpine       74d7bd0b3b47        11 months ago       171 MB
+nginx-php7-fpm                 ssl                 a943fef2d168        11 months ago       246 MB
+mysql                          latest              d9124e6c552f        12 months ago       383 MB
+redis                          3.2.5-alpine        501ad78535f0        12 months ago       21 MB
 
 ```
 
 
-
-
-    
-    // 加载完成
-    localhost:~ qylinqylin$ docker pull nginx:1.13.7-alpine
-    1.13.7-alpine: Pulling from library/nginx
-    b1f00a6a160c: Pull complete 
-    893ab8d8734b: Pull complete 
-    5bd0e3e256d9: Pull complete 
-    79c4e9920d30: Pull complete 
-    Digest: sha256:f1ca87d9adb678b180c31bf21eb9798b043c22571f419ed844bca1d103f2a2f7
-    Status: Downloaded newer image for nginx:1.13.7-alpine
     
     // 列举镜像    
     localhost:~ qylinqylin$ docker images
@@ -81,7 +56,21 @@ You can add some colors. What about a warning message?
     mysql                          latest              d9124e6c552f        12 months ago       383 MB
     redis                          3.2.5-alpine        501ad78535f0        12 months ago       21 MB
     
-    
+```
+**[terminal]
+**[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
+]
+Normal output line. Nothing special here...
+But...
+You can add some colors. What about a warning message?
+**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
+
+**[error [ERROR] This is not the error you are looking for]
+
+```
+
+        
     docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
     
     localhost:~ qylinqylin$ docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
