@@ -29,8 +29,10 @@
 
 ## Docker体系结构
 
-![](/assets/Docker体系结构.svg)
-
+<figure>
+<img src="/assets/Docker体系结构.svg" width="800" alt="Docker体系结构">
+<figcaption>Image - Docker体系结构</figcaption>
+</figure>
 ## [Docker安装](https://docs.docker.com/engine/installation/#supported-platforms)
 
     https://docs.docker.com/engine/installation/#supported-platforms
