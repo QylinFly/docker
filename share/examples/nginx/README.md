@@ -156,9 +156,6 @@
     
     
 ### 如何使用
-
-
-
     //构建一个自己的镜像 Dockerfile  默认开启gzip
     cd /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx
     docker build -t hwl-nginx:1.0 .
