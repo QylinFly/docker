@@ -8,6 +8,16 @@
     localhost:~ qylinqylin$ docker pull nginx:1.13.7-alpine
     Warning: failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
     Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+```
+**[terminal]
+**[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine]
+**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
+    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+```
+
+
+
+
     
 ```
 **[terminal]
@@ -16,8 +26,9 @@
 Normal output line. Nothing special here...
 But...
 You can add some colors. What about a warning message?
-**[warning [WARNING] The color depends on the theme. Could look normal too]
-What about an error message?
+**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
+    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
 **[error [ERROR] This is not the error you are looking for]
 
 ```
