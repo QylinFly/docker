@@ -1,9 +1,9 @@
 version: '2'
 services:
-  web-tensorflow:
-    domainname: web-tensorflow
-    hostname: web-tensorflow
-    container_name: ctr-web-tensorflow
+  web-tensorflow-lab:
+    domainname: web-tensorflow-lab
+    hostname: web-tensorflow-lab
+    container_name: ctr-web-tensorflow-lab
     restart: always
     image: gcr.io/tensorflow/tensorflow:1.3.0
     networks:
