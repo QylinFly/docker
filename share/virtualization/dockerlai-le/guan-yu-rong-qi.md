@@ -33,6 +33,7 @@
 下面是这个页面的基本Docker命令列表，以及一些相关的命令，如果你想在继续之前探索一下。
 
 ```
+**[terminal]    
 docker build -t friendlyname .  # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyname  # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyname         # Same thing, but in detached mode
