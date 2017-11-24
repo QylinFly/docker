@@ -8,5 +8,10 @@ Docker在2013年的推出启动了应用程序开发的一场革命 - 将软件�
 
 在这个发展过程之后，Docker继续回收容器项目。Containerd是Docker引擎守护进程的核心容器运行时，这是一个业界标准的容器运行时，重点在于简单性，健壮性和可移植性，被设计为更高级别系统的可嵌入组件。Docker引擎是建立在runC和containerd之上的。这个合作项目为开发人员提供了可移植性，通过OCI实现了容器标准化，不断增长的工具生态系统以及图像的自由市场 - 社区可以共享和构建的预制应用程序。
 
-![](/assets/Pulls-Chart.png)
+
+<figure>
+    <img src="/assets/Pulls-Chart.png" width="800" height="600"  alt="拉取数据">
+    <figcaption>Image - 拉取数据</figcaption>
+</figure>
+
 
