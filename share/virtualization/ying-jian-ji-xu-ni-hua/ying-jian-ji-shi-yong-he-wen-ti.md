@@ -14,9 +14,9 @@ v-center image
 hyper-v image
 
 
-## 硬件级别虚拟化的结构图
+## 硬件级虚拟化的结构图
 
 <figure>
-    <img src="/assets/VirtualMachines.png" width="400" height="400"  alt="Phra Nakhon Khiri, Phetchaburi">
-    <figcaption>Image - Phra Nakhon Khiri, Phetchaburi</figcaption>
+    <img src="/assets/VirtualMachines.png" width="400" height="400"  alt="硬件级虚拟化">
+    <figcaption>Image - 硬件级虚拟化</figcaption>
 </figure>
