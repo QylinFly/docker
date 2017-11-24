@@ -20,7 +20,7 @@
 ## Docker引擎
 
 <figure>
-    <img src="/assets/engine-components-flow.png" width="600" height="600"  alt="Docker引擎">
+    <img src="/assets/engine-components-flow.png" width="600"  alt="Docker引擎">
     <figcaption>Image - Docker引擎</figcaption>
 </figure>
 
