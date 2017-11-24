@@ -14,3 +14,6 @@ docker-machine create --driver virtualbox myvm1
 docker-machine create --driver virtualbox myvm2
 
 docker-machine ls
+
+// 初始化master
+docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"
