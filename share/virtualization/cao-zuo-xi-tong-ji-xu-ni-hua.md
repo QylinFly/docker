@@ -8,3 +8,9 @@
 
 ![](/assets/Containers.png)
 
+
+<figure>
+    <img src="/assets/Containers.png" width="400" height="400"  alt="docker虚拟化">
+    <figcaption>Image - docker虚拟化</figcaption>
+</figure>
+
