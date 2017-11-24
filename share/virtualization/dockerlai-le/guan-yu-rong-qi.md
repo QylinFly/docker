@@ -8,7 +8,7 @@
 
 
 <figure>
-    <img src="/assets/about-docker.png" width="600" height="600"  alt="Docker">
+    <img src="/assets/about-docker.png" width="700"   alt="Docker">
     <figcaption>Image - Docker</figcaption>
 </figure>
 
