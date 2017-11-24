@@ -36,7 +36,7 @@
 
 ## [Docker安装](https://docs.docker.com/engine/installation/#supported-platforms)
 
-![https://docs.docker.com/engine/installation/#supported-platforms](https://docs.docker.com/engine/installation/#supported-platforms)
+[https://docs.docker.com/engine/installation/#supported-platforms](https://docs.docker.com/engine/installation/#supported-platforms)
 
 
 
