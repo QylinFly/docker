@@ -10,6 +10,7 @@
 ### docker-compose - 例子
 
 ## Docker 服务的使用
+### 服务的优点 出现在1.13之后
 
 ## Docker 集群和堆栈的使用
 
