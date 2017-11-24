@@ -13,7 +13,7 @@
 **[terminal]
 **[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine]
 **[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
-    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
 ```
 
 
