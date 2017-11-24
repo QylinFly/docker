@@ -46,7 +46,7 @@
 https://docs.docker.com/engine/admin/volumes/
 
 ## 容器基础镜像
-    http//hub.docker.com  
+    http//hub.docker.com
     AlpineLinux
 
 
