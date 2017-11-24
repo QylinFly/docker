@@ -17,9 +17,6 @@
 ```
 
 
-
-
-    
 ```
 **[terminal]
 **[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
