@@ -21,3 +21,11 @@ $ docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"
 $ docker-machine ssh myvm2 "docker swarm join \
 --token <token> \
 <ip>:2377"
+
+
+docker node ls在管理器上运行以查看此群中的节点：
+
+    $ docker-machine ssh myvm1 "docker node ls"
+    ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS
+    brtu9urxwfd5j0zrmkubhpkbd     myvm2               Ready               Active
+    rihwohkh3ph38fhillhhb84sk *   myvm1               Ready               Active              Leader
