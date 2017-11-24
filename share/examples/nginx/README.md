@@ -17,18 +17,15 @@
 ```
 
 
+
 ```
 **[terminal]
-**[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
-]
-Normal output line. Nothing special here...
-But...
-You can add some colors. What about a warning message?
-**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
-    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
-
-**[error [ERROR] This is not the error you are looking for]
-
+**[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine]
+1.13.7-alpine: Pulling from library/nginx
+b1f00a6a160c: Pull complete 
+893ab8d8734b: Downloading 2.817 MB/4.778 MB
+5bd0e3e256d9: Download complete 
+79c4e9920d30: Download complete 
 ```
 
 
@@ -43,6 +40,25 @@ You can add some colors. What about a warning message?
     893ab8d8734b: Downloading 2.817 MB/4.778 MB
     5bd0e3e256d9: Download complete 
     79c4e9920d30: Download complete 
+    
+    
+    ```
+**[terminal]
+**[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
+]
+Normal output line. Nothing special here...
+But...
+You can add some colors. What about a warning message?
+**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
+    Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
+
+**[error [ERROR] This is not the error you are looking for]
+
+```
+
+
+
+
     
     // 加载完成
     localhost:~ qylinqylin$ docker pull nginx:1.13.7-alpine
