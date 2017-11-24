@@ -1,0 +1,9 @@
+server:
+  image: easypi/shadowsocks-libev
+  ports:
+    - "8443:8388/tcp"
+    - "8443:8388/udp"
+  environment:
+    - METHOD=aes-256-cfb
+    - PASSWORD=nosmokinggoogle
+  restart: always
