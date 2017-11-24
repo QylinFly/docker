@@ -98,7 +98,7 @@
     // 何时需要挂载本地目录，
     ## [在Docker中管理数据](https://docs.docker.com/engine/admin/volumes/)
         https://docs.docker.com/engine/admin/volumes/
-
+![](/assets/types-of-mounts-volume.png)
 
     docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
     
