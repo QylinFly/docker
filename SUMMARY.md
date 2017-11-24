@@ -21,7 +21,7 @@
     * [集群和堆栈](share/virtualization/dockerlai-le/ji-qun-he-dui-zhan.md)
       * [集群和堆栈例子](share/examples/swarms-stacks/README.md)
     * [其他例子](share/virtualization/dockerlai-le/qi-ta-li-zi.md)
-      * [vpn 例子](share/examples/nginx/README.md)
+      * [vpn 例子](share/examples/nginx/README22.md)
       * [TensorFlow 例子](share/examples/TensorFlow/README.md)
 
   * [学习资料](share/virtualization/xue-xi-zi-liao.md)
