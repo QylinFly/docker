@@ -10,8 +10,6 @@
 
 一起使用的容器和虚拟机在部署和管理应用程序方面提供了很大的灵活性。  
 
-![](/assets/containers-vms-together.png)
-
 
 <figure>
     <img src="/assets/containers-vms-together.png" width="800" height="400"  alt="集装箱和虚拟机">
