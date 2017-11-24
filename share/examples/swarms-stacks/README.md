@@ -30,3 +30,8 @@ docker node ls在管理器上运行以查看此群中的节点：
     ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS
     brtu9urxwfd5j0zrmkubhpkbd     myvm2               Ready               Active
     rihwohkh3ph38fhillhhb84sk *   myvm1               Ready               Active              Leader
+    
+bug 
+    如果本地镜像没有安装启动就会失败所以要执行
+    $ docker pull brianchewson/get-started:part1
+    $ docker-machine ssh myvm1 "docker pull brianchewson/get-started:part1"
