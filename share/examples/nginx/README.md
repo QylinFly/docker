@@ -93,6 +93,20 @@
     / #
     
     
+
+
+    // 修改nginx启动参数 例如开启gzip 
+    // 如何讲一个宿主计算机的文件和目录映射到容器
+    // 何时需要挂载本地目录，
+    docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
+    
+    localhost:~ qylinqylin$ docker stop my-nginx001
+    my-nginx001
+    localhost:~ qylinqylin$ docker rm my-nginx001
+    
+    // 这些还不够，我们要加载我们的页面才可以
+    docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples//nginx/html:/usr/share/nginx/html:ro -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
+
 ## Dockerfile
 ### 基本结构
 
@@ -140,18 +154,6 @@
     
     
 ### 如何使用
-
-    // 修改nginx启动参数 例如开启gzip 
-    // 如何讲一个宿主计算机的文件和目录映射到容器
-    // 何时需要挂载本地目录，
-    docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
-    
-    localhost:~ qylinqylin$ docker stop my-nginx001
-    my-nginx001
-    localhost:~ qylinqylin$ docker rm my-nginx001
-    
-    // 这些还不够，我们要加载我们的页面才可以
-    docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples//nginx/html:/usr/share/nginx/html:ro -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
 
 
 
