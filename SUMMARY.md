@@ -16,4 +16,5 @@
     * [关于容器](share/virtualization/dockerlai-le/guan-yu-rong-qi.md)
     * [服务](share/virtualization/dockerlai-le/fu-wu.md)
     * [集群和堆栈](share/virtualization/dockerlai-le/ji-qun-he-dui-zhan.md)
+  * [学习资料](share/virtualization/xue-xi-zi-liao.md)
 
