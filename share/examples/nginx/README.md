@@ -97,8 +97,8 @@
 ### 基本结构
 
     #
-# Dockerfile for shadowsocks-libev
-#
+    # Dockerfile for shadowsocks-libev
+    #
 
     FROM alpine
     MAINTAINER EasyPi Software Foundation
@@ -119,10 +119,6 @@
         && curl -sSL $SS_URL | tar xz \
         && cd $SS_DIR \
             && curl -sSL https://github.com/shadowsocks/ipset/archive/shadowsocks.tar.gz | tar xz --strip 1 -C libipset \
-            && curl -sSL https://github.com/shadowsocks/libcork/archive/shadowsocks.tar.gz | tar xz --strip 1 -C libcork \
-            && curl -sSL https://github.com/shadowsocks/libbloom/archive/master.tar.gz | tar xz --strip 1 -C libbloom \
-            && ./autogen.sh \
-            && ./configure --disable-documentation \
             && make install \
             && cd .. \
             && rm -rf $SS_DIR \
