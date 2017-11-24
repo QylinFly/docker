@@ -28,18 +28,18 @@ Digest: sha256:f1ca87d9adb678b180c31bf21eb9798b043c22571f419ed844bca1d103f2a2f7
 Status: Downloaded newer image for nginx:1.13.7-alpine
 ```
 
-    // 列举镜像  
+// 列举镜像  
 ```
 **[terminal]
 **[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker images]
-    REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
-    nginx                          1.13.7-alpine       bf85f2b6bf52        11 hours ago        15.5 MB
-    gcr.io/tensorflow/tensorflow   1.3.0               1bb38d61d261        3 months ago        1.21 GB
-    gcr.io/tensorflow/tensorflow   latest              ea40dcc45724        9 months ago        1.03 GB
-    rmohr/activemq                 5.14.1-alpine       74d7bd0b3b47        11 months ago       171 MB
-    nginx-php7-fpm                 ssl                 a943fef2d168        11 months ago       246 MB
-    mysql                          latest              d9124e6c552f        12 months ago       383 MB
-    redis                          3.2.5-alpine        501ad78535f0        12 months ago       21 MB
+REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+nginx                          1.13.7-alpine       bf85f2b6bf52        11 hours ago        15.5 MB
+gcr.io/tensorflow/tensorflow   1.3.0               1bb38d61d261        3 months ago        1.21 GB
+gcr.io/tensorflow/tensorflow   latest              ea40dcc45724        9 months ago        1.03 GB
+rmohr/activemq                 5.14.1-alpine       74d7bd0b3b47        11 months ago       171 MB
+nginx-php7-fpm                 ssl                 a943fef2d168        11 months ago       246 MB
+mysql                          latest              d9124e6c552f        12 months ago       383 MB
+redis                          3.2.5-alpine        501ad78535f0        12 months ago       21 MB
 
 ```
 
