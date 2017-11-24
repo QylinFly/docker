@@ -14,6 +14,6 @@
     * [Docker VS 虚拟机](share/virtualization/docker-vs-xu-ni-ji.md)
   * [Docker来了](share/virtualization/dockerlai-le.md)
     * [关于容器](share/virtualization/dockerlai-le/guan-yu-rong-qi.md)
-    * 服务
+    * [服务](share/virtualization/dockerlai-le/fu-wu.md)
     * [集群和堆栈](share/virtualization/dockerlai-le/ji-qun-he-dui-zhan.md)
 
