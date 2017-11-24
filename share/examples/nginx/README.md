@@ -18,6 +18,8 @@
 
 
 
+//正在加载
+
 ```
 **[terminal]
 **[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine]
@@ -30,10 +32,8 @@ b1f00a6a160c: Pull complete
 
 
 
-    
-    
-    
-    // 正在加载
+        
+    // 
     localhost:~ qylinqylin$ docker pull nginx:1.13.7-alpine
     1.13.7-alpine: Pulling from library/nginx
     b1f00a6a160c: Pull complete 
