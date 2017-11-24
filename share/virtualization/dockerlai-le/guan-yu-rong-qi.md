@@ -25,8 +25,6 @@
 </figure>
 
 
-
-
 ## Docker体系结构
 
 <figure>
