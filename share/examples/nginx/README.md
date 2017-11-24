@@ -11,7 +11,8 @@
     
 ```
 **[terminal]
-**[prompt localhost]**[path ~]**[delimiter  $ ]**[command ./myscript]
+**[prompt localhost]**[path ~]**[delimiter  qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
+]
 Normal output line. Nothing special here...
 But...
 You can add some colors. What about a warning message?
