@@ -20,3 +20,6 @@ hyper-v image
     <img src="/assets/VirtualMachines.png" width="400" height="400"  alt="硬件级虚拟化">
     <figcaption>Image - 硬件级虚拟化</figcaption>
 </figure>
+
+
+![](/assets/v-center.jpeg)
