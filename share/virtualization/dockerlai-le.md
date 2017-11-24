@@ -10,7 +10,7 @@ Docker在2013年的推出启动了应用程序开发的一场革命 - 将软件�
 
 
 <figure>
-    <img src="/assets/Pulls-Chart.png" width="1000" height="600"  alt="拉取数据">
+    <img src="/assets/Pulls-Chart.png" width="1000"  alt="拉取数据">
     <figcaption>Image - 拉取数据</figcaption>
 </figure>
 
