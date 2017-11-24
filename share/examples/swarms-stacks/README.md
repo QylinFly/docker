@@ -18,6 +18,7 @@ $ docker-machine ls
 // 初始化master
 $ docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"
 
+// 加入worker节点
 $ docker-machine ssh myvm2 "docker swarm join \
 --token <token> \
 <ip>:2377"
