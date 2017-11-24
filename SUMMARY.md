@@ -14,8 +14,11 @@
     * [Docker VS 虚拟机](share/virtualization/docker-vs-xu-ni-ji.md)
   * [Docker来了](share/virtualization/dockerlai-le.md)
     * [关于容器](share/virtualization/dockerlai-le/guan-yu-rong-qi.md)
+      * [nginx 例子](share/examples/nginx/README.md)
     * [服务](share/virtualization/dockerlai-le/fu-wu.md)
+      * [服务例子](share/examples/swarms-stacks/README.md)
     * [集群和堆栈](share/virtualization/dockerlai-le/ji-qun-he-dui-zhan.md)
+      * [集群和堆栈例子](share/examples/swarms-stacks/README.md)
     * [其他例子](share/virtualization/dockerlai-le/qi-ta-li-zi.md)
   * [学习资料](share/virtualization/xue-xi-zi-liao.md)
 
