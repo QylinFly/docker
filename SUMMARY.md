@@ -15,7 +15,7 @@
   * [Docker来了](share/virtualization/dockerlai-le.md)
     * [关于容器](share/virtualization/dockerlai-le/guan-yu-rong-qi.md)
       * [nginx 例子](share/examples/nginx/README.md)
-      * [docker-compose](share/examples/nginx/README.md)
+      * [docker-compose 例子](share/examples/nginx/README.md)
     * [服务](share/virtualization/dockerlai-le/fu-wu.md)
       * [服务例子](share/examples/swarms-stacks/README.md)
     * [集群和堆栈](share/virtualization/dockerlai-le/ji-qun-he-dui-zhan.md)
