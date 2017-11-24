@@ -1,4 +1,7 @@
-
+<figure>
+    <img src="/assets/集群logo.png" width="600"  alt="集群logo">
+    <figcaption>Image - 集群logo</figcaption>
+</figure>
 
 
 以下是一些您可能想要运行的命令，以便与您的群集和虚拟机进行一点交互：
