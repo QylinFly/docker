@@ -14,6 +14,12 @@
 
 ## Docker引擎
 ![](/assets/engine-components-flow.png)
+<figure>
+    <img src="/assets/engine-components-flow.png" width="600" height="600"  alt="Docker引擎">
+    <figcaption>Image - Docker引擎</figcaption>
+</figure>
+
+
 
 
 ## Docker体系结构
