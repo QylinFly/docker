@@ -35,21 +35,6 @@ https://www.zhihu.com/question/22871084
 https://www.zhihu.com/question/22871084
 
 
--- 何现有部署比较
-
-安装
-启动
-镜像获取--hub.docker.com
-https://www.youtube.com/watch?v=Vyp5_F42NGs
-
-//如何启动标准镜像nginx 如何扩展nginx  如何映射文件夹
-
-
-
-https://www.youtube.com/watch?v=lcQfQRDAMpQ
-docker-compose
-
-
 docker 优点
 vs vm 更小，安装更容易更快、同一台宿主机器可以安装更多的image,启动更多的docker 容器
 
