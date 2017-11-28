@@ -59,7 +59,3 @@ vs vm 更小，安装更容易更快、同一台宿主机器可以安装更多�
 
 
 
-//最全文档 最好的教程
-https://docs.docker.com/get-started/part4/#understanding-swarm-clusters
-
-docker swarm join --token SWMTKN-1-56nyrtx6xwxtinynmr89v180iavfzry251gtkkn9fzcxorw14s-an9t6zx76mifpasmsjt5ax6s2 192.168.99.100:2377
