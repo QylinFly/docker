@@ -1,6 +1,7 @@
 <!-- toc -->
 
 ## 我们现在的部署是怎么样的<Docker之前>
+https://www.zhihu.com/question/22871084 ###docker出现之前的部署情况
 ## 发展史和架构对比
 ### 问题1.Docker和VM如何选择，谁更好？
     - 资源消耗上(存储、硬件等)
