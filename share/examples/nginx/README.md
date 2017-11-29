@@ -44,18 +44,6 @@ redis                          3.2.5-alpine        501ad78535f0        12 months
 ```
 
 
-    
-    // 列举镜像    
-    localhost:~ qylinqylin$ docker images
-    REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
-    nginx                          1.13.7-alpine       bf85f2b6bf52        11 hours ago        15.5 MB
-    gcr.io/tensorflow/tensorflow   1.3.0               1bb38d61d261        3 months ago        1.21 GB
-    gcr.io/tensorflow/tensorflow   latest              ea40dcc45724        9 months ago        1.03 GB
-    rmohr/activemq                 5.14.1-alpine       74d7bd0b3b47        11 months ago       171 MB
-    nginx-php7-fpm                 ssl                 a943fef2d168        11 months ago       246 MB
-    mysql                          latest              d9124e6c552f        12 months ago       383 MB
-    redis                          3.2.5-alpine        501ad78535f0        12 months ago       21 MB
-    
 ```
 **[terminal]
 **[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
@@ -76,6 +64,23 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docke
     localhost:~ qylinqylin$ docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
     172.17.0.1 - - [23/Nov/2017:07:03:28 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "-"
     172.17.0.1 - - [23/Nov/2017:07:03:30 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "-"
+
+
+```
+**[terminal]
+**[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
+]
+Normal output line. Nothing special here...
+But...
+You can add some colors. What about a warning message?
+**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
+
+**[error [ERROR] This is not the error you are looking for]
+
+```
+
+
 
     // 后台执行 -d
     docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
