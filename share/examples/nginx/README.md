@@ -131,7 +131,6 @@ docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library
 ### 基本结构
 
 ```json
-**[terminal]
 #
 # Dockerfile for shadowsocks-libev
 #
