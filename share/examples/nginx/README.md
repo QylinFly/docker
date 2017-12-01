@@ -103,9 +103,6 @@ drwxr-xr-x   16 root     root          4096 Nov 23 07:07 var
 / # whoami
 root
 / #
-
-
-
 ```
 
 
