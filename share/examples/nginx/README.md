@@ -53,13 +53,13 @@ docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
 172.17.0.1 - - [23/Nov/2017:07:03:30 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "-"
 ```
 
-```
+
 // 后台执行 -d
-```
 
-```
+
+
 docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
-
+```
 **[terminal]
 **[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine]
 baaa25a9d57e4039522dd65f8a9a965be3e1edc84975c44d8eff71ddab7c7f51
