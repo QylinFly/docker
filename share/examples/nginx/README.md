@@ -54,11 +54,18 @@ docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
 ```
 
 ```
-docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
+// 后台执行 -d
+```
 
-localhost:~ qylinqylin$ docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
-172.17.0.1 - - [23/Nov/2017:07:03:28 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "-"
-172.17.0.1 - - [23/Nov/2017:07:03:30 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "-"
+```
+docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
+
+**[terminal]
+**[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine]
+baaa25a9d57e4039522dd65f8a9a965be3e1edc84975c44d8eff71ddab7c7f51
+**[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker ps]
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                                      NAMES
+baaa25a9d57e        nginx:1.13.7-alpine   "nginx -g 'daemon ..."   18 seconds ago      Up 15 seconds       0.0.0.0:5555->80/tcp                       my-nginx001
 ```
 
 ```
