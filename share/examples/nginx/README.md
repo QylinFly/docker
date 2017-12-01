@@ -76,6 +76,19 @@ localhost:~ qylinqylin$ docker ps -a
 // 进入容器
 docker exec -it my-nginx001 /bin/sh
 
+```
+**[terminal]
+**[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker exec -it my-nginx001 /bin/sh]
+Normal output line. Nothing special here...
+But...
+You can add some colors. What about a warning message?
+**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
+
+**[error [ERROR] This is not the error you are looking for]
+```
+
+
 
 localhost:~ qylinqylin$ docker exec -it my-nginx001 /bin/sh
 / # ls -al
