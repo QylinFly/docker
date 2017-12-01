@@ -68,32 +68,6 @@ CONTAINER ID        IMAGE                 COMMAND                  CREATED      
 baaa25a9d57e        nginx:1.13.7-alpine   "nginx -g 'daemon ..."   18 seconds ago      Up 15 seconds       0.0.0.0:5555->80/tcp                       my-nginx001
 ```
 
-```
-**[terminal]
-**[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
-]
-Normal output line. Nothing special here...
-But...
-You can add some colors. What about a warning message?
-**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
-Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
-
-**[error [ERROR] This is not the error you are looking for]
-```
-
-```
-// 后台执行 -d
-docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
-
-    localhost:~ qylinqylin$ docker run -d --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
-baaa25a9d57e4039522dd65f8a9a965be3e1edc84975c44d8eff71ddab7c7f51
-localhost:~ qylinqylin$
-
-localhost:~ qylinqylin$ docker ps
-CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                                      NAMES
-baaa25a9d57e        nginx:1.13.7-alpine   "nginx -g 'daemon ..."   18 seconds ago      Up 15 seconds       0.0.0.0:5555->80/tcp                       my-nginx001
-localhost:~ qylinqylin$ 
-
 // 查看所有容器 包含未启动
 docker ps -a
 localhost:~ qylinqylin$ docker ps -a    
