@@ -76,6 +76,7 @@ localhost:~ qylinqylin$ docker ps -a
 // 进入容器
 docker exec -it my-nginx001 /bin/sh
 
+
 localhost:~ qylinqylin$ docker exec -it my-nginx001 /bin/sh
 / # ls -al
 total 60

@@ -14,14 +14,17 @@ https://www.cnblogs.com/zhangjk1993/p/5066771.html#_label1_3
 
 ```
 **[terminal]
-**[prompt foo@joe]**[path ~]**[delimiter  $ ]**[command ./myscript]
+**[prompt localhost]**[path ~]**[delimiter qylinqylin$ ]**[command docker pull nginx:1.13.7-alpine
+]
 Normal output line. Nothing special here...
 But...
 You can add some colors. What about a warning message?
-**[warning [WARNING] The color depends on the theme. Could look normal too]
-What about an error message?
+**[warning [Warning] failed to get default registry endpoint from daemon (Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?). Using system default: https://index.docker.io/v1/
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
+
 **[error [ERROR] This is not the error you are looking for]
 ```
+
 
 # GitBook配置
 
