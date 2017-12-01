@@ -1,12 +1,11 @@
 ## 基本使用
 
-```
+
 //拉去镜像
 
 docker pull nginx:1.13.7-alpine
 
 // docker 未启动
-```
 
 ```
 **[terminal]
