@@ -14,8 +14,6 @@ services:
       - "80:80"
     environment:
       - DOMAIN=xxxx.i-vectors.com
-      - WEBROOT=/var/www/html/public
-      - GIT_EMAIL=18612116114@163.com
     volumes:
       - /Users/qylinqylin/Project/git-xoxo/project/xoxo/:/var/www/html/  
 
