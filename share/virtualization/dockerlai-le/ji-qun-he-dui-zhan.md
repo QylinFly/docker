@@ -4,7 +4,7 @@
 </figure>
 
 
-# 以下是一些您可能想要运行的命令，以便与您的群集和虚拟机进行一点交互：
+### 以下是一些您可能想要运行的命令，以便与您的群集和虚拟机进行一点交互：
 ```
 **[terminal]  
 docker-machine create --driver virtualbox myvm1 # Create a VM (Mac, Win7, Linux)
