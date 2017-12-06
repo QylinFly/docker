@@ -1,4 +1,3 @@
-<!-- toc -->
 
 ## 引一个例子，我们现在的部署是怎么样的<Docker之前>
 https://www.zhihu.com/question/22871084 ###docker出现之前的部署情况
