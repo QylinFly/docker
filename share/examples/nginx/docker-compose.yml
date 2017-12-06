@@ -1,9 +1,9 @@
 version: '2'
 services:
-  hwl-ngix:
+  hwl-ngix-compose:
     domainname: hwl-nginx.com
-    hostname: hwl-nginx
-    container_name: ctr-hwl-nginx
+    hostname: hwl-nginx-compose
+    container_name: ctr-hwl-nginx-compose
     restart: always
     image: nginx:1.13.7-alpine
     networks:
