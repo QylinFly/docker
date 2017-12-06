@@ -22,7 +22,7 @@ server:
     - "8443:8388/udp"
   environment:
     - METHOD=aes-256-cfb
-    - PASSWORD=nosmokinggoogle
+    - PASSWORD=password
   restart: always
 ```
 
