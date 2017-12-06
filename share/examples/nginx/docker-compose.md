@@ -27,6 +27,7 @@ up 创建并启动容器
 ###  docker-compose 文件例子
 ```
 **[terminal]
+
 version: '2'
 services:
   hwl-ngix-compose:
