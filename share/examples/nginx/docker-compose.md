@@ -1,3 +1,5 @@
+
+```
 version: '2'
 services:
   hwl-ngix-compose:
@@ -25,3 +27,4 @@ networks:
       config:
       - subnet: 172.16.0.0/24
         gateway: 172.16.0.1   
+```
