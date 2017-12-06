@@ -53,7 +53,6 @@ https://docs.docker.com/engine/admin/volumes/
 http://hub.docker.com/
 
 <a href="/share/AlpineLinux-a.pdf" target="_blank">Alpine Linux</a>
-[Alpine Linux](/share/AlpineLinux-a.pdf)
 https://alpinelinux.org/
 
 
