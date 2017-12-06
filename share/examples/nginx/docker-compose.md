@@ -5,7 +5,8 @@ Docker Compose是一个用来定义和运行复杂应用的Docker工具。使用
 
 一个使用Docker容器的应用，通常由多个容器组成。使用Docker Compose，不再需要使用shell脚本来启动容器。在配置文件中，所有的容器通过services来定义，然后使用docker-compose脚本来启动，停止和重启应用，和应用中的服务以及所有依赖服务的容器。完整的命令列表如下：
 
-```json
+```
+**[terminal]
 build 构建或重建服务
 help 命令帮助
 kill 杀掉容器
