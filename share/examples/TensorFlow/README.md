@@ -1,5 +1,17 @@
-官方文档
-https://docs.docker.com/compose/overview/
+docker-hub
+
+https://hub.docker.com/r/tensorflow/tensorflow/
+
+### CPU + Shell
+```
+$ docker run -it gcr.io/tensorflow/tensorflow bash
+```
+
+
+### CUP + Jupyter notebook
+```
+$ docker run -it -p 8888:8888 gcr.io/tensorflow/tensorflow
+```
 
 
 ```json
