@@ -25,7 +25,7 @@
         "versions-select",
         "simple-page-toc",
         "terminal",
-        "toc2",
+        "-toc2",
         "-toc",
         "image-captions",
         "-maxiang"
