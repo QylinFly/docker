@@ -5,7 +5,7 @@
 
     docker pull nginx:1.13.7-alpine
 
-// docker 未启动
+### docker 未启动
 
 ```
 **[terminal]
@@ -14,7 +14,7 @@
     Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?]
 ```
 
-//正在加载
+### 正在加载
 
 ```
 **[terminal]
@@ -28,7 +28,7 @@ Digest: sha256:f1ca87d9adb678b180c31bf21eb9798b043c22571f419ed844bca1d103f2a2f7
 Status: Downloaded newer image for nginx:1.13.7-alpine
 ```
 
-// 列举镜像
+### 列举镜像
 
 ```
 **[terminal]
@@ -43,6 +43,7 @@ mysql                          latest              d9124e6c552f        12 months
 redis                          3.2.5-alpine        501ad78535f0        12 months ago       21 MB
 ```
 
+### 启动一个容器服务
 docker run --name my-nginx001 -p 5555:80 nginx:1.13.7-alpine
 
 ```
