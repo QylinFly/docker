@@ -15,7 +15,8 @@ $ docker run -it -p 8888:8888 gcr.io/tensorflow/tensorflow
 ```
 
 ### Docker-compose 文件
-```json
+```
+**[terminal]
 version: '2'
 services:
   web-tensorflow:
