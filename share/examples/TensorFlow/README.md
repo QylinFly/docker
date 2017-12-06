@@ -1,2 +1,34 @@
 官方文档
 https://docs.docker.com/compose/overview/
+
+
+```json
+version: '2'
+services:
+  web-tensorflow:
+    domainname: web-tensorflow
+    hostname: web-tensorflow
+    container_name: ctr-web-tensorflow
+    restart: always
+    image: gcr.io/tensorflow/tensorflow:1.3.0
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.88
+    ports:
+      - "8888:8888"
+      - "6006:6006"
+    volumes:
+      - /Users/qylinqylin/Project/git-xoxo/project/tensorflow/:/notebooks/data/
+    #entrypoint:
+    #  - -it
+
+networks:
+  app_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.16.0.0/24
+        gateway: 172.16.0.1
+```
+
