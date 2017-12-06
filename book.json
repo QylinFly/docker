@@ -77,7 +77,7 @@
     },
     "toc2": {
         "addClass": true,
-        "className": "toc2"
+        "className": "toc"
    },
    "image-captions": {
       "attributes": { "width": "300" },
