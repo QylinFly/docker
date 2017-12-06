@@ -14,7 +14,8 @@
 
 ### Docker-compose 文件
 
-```json
+```
+**[terminal]
 server:
   image: easypi/shadowsocks-libev
   ports:
