@@ -7,6 +7,7 @@ Docker Compose是一个用来定义和运行复杂应用的Docker工具。使用
 
 ```
 **[terminal]
+
 build 构建或重建服务
 help 命令帮助
 kill 杀掉容器
