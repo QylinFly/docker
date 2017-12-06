@@ -16,6 +16,7 @@
 
 ```
 **[terminal]
+
 server:
   image: easypi/shadowsocks-libev
   ports:
