@@ -1,4 +1,4 @@
-# 一些在这个阶段探索的命令：
+### 一些在这个阶段探索的命令：
 ```
 **[terminal]    
 docker stack ls                                            # List stacks or apps
