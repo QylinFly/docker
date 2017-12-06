@@ -1,4 +1,4 @@
-# docker
+# Docker - Build, Ship, and Run Any App, Anywhere
 
 ## docker-composer
 
