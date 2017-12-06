@@ -9,5 +9,20 @@ https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%A
 windows
 https://github.com/shadowsocks/shadowsocks-windows/releases
 
+
+### Docker-compose 文件
+
+```json
+server:
+  image: easypi/shadowsocks-libev
+  ports:
+    - "8443:8388/tcp"
+    - "8443:8388/udp"
+  environment:
+    - METHOD=aes-256-cfb
+    - PASSWORD=nosmokinggoogle
+  restart: always
+```
+
 ### 更多信息参见
 https://github.com/shadowsocks
