@@ -25,7 +25,7 @@
         "versions-select",
         "simple-page-toc",
         "terminal",
-        "toc",
+        "toc2",
         "image-captions",
         "maxiang"
     ],
@@ -74,7 +74,7 @@
         "fade": false,
         "style": "flat"
     },
-    "toc": {
+    "toc2": {
         "addClass": true,
         "className": "toc"
    },
