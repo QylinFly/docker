@@ -13,7 +13,7 @@ services:
       - "443:443"
       - "80:80"
     environment:
-      - DOMAIN=wechat.i-vectors.com
+      - DOMAIN=xxxx.i-vectors.com
       - WEBROOT=/var/www/html/public
       - GIT_EMAIL=18612116114@163.com
     volumes:
