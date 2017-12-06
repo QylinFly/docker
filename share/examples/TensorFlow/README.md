@@ -9,7 +9,6 @@ https://hub.docker.com/r/tensorflow/tensorflow/
 $ docker run -it gcr.io/tensorflow/tensorflow bash
 ```
 
-
 ### CUP + Jupyter notebook
 ```
 $ docker run -it -p 8888:8888 gcr.io/tensorflow/tensorflow
