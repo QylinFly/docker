@@ -23,7 +23,7 @@
         "toggle-chapters",
         "donate",
         "versions-select",
-        "simple-page-toc",
+        "-simple-page-toc",
         "terminal",
         "-toc2",
         "image-captions",
