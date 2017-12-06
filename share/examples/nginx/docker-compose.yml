@@ -17,7 +17,7 @@ services:
       - WEBROOT=/var/www/html/public
       - GIT_EMAIL=18612116114@163.com
     volumes:
-      - /Users/qylinqylin/Project/git-xoxo/project/xoxo/:/var/www/html/
+      - /Users/qylinqylin/Project/git-xoxo/project/xoxo/:/var/www/html/  
 
 networks:
   app_net:
