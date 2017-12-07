@@ -57,9 +57,9 @@ http://hub.docker.com/
 https://alpinelinux.org/
 
 ## 微服务架构
-全功能镜像
+### 全功能镜像
     比如一个包含lnmp所有功能的镜像
-单一service
+### 单一service
     lnmp分配到四个镜像中
 
 下面是这个页面的基本Docker命令列表，以及一些相关的命令，如果你想在继续之前探索一下。
