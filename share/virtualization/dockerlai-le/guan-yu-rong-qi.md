@@ -34,6 +34,10 @@
 <figcaption>Image - Docker体系结构</figcaption>
 </figure>
 
+ #### 仓库hub.docker.com作业
+ #### 镜像时啥？
+ #### 容器是啥？
+
 ## [Docker安装](https://docs.docker.com/engine/installation/#supported-platforms)
 
 [https://docs.docker.com/engine/installation/#supported-platforms](https://docs.docker.com/engine/installation/#supported-platforms)
