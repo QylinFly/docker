@@ -14,7 +14,6 @@
 ### 如何构建集群
 ### 堆栈的理解
 
-
 ## 总结：为何要使用Docker,有何优点
 
 https://www.zhihu.com/question/22871084
