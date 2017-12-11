@@ -11,6 +11,16 @@
 ![](/assets/v-center.jpeg)
 ![](/assets/hyper-v.jpg)
 
+<figure>
+    <img src="/assets/vmCtrl.jpeg" width="600" height="600"  alt="">
+    <figcaption></figcaption>
+</figure>
+
+
+
+
+
+
 ## 硬件级虚拟化的结构图
 
 <figure>
