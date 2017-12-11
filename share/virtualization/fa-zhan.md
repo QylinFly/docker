@@ -10,7 +10,7 @@
 操作系统级虚拟化的快速发展过程
 ```
 
-## [比较容器和虚拟化](/share/virtualization/docker-vs-xu-ni-ji.md)
+## [比较容器和虚拟机](/share/virtualization/docker-vs-xu-ni-ji.md)
 
 ```
 比较容器和虚拟机
