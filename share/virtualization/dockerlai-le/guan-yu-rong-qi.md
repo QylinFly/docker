@@ -34,7 +34,7 @@
 <figcaption>Image - Docker体系结构</figcaption>
 </figure>
 
- #### 仓库 hub.docker.com作业
+ #### 仓库 hub.docker.com
  #### 镜像时啥？
  #### 容器是啥？
 
