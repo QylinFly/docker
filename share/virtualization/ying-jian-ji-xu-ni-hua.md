@@ -9,15 +9,15 @@
 7. windows10 Hyper-v
 
 <figure>
-    <img src="/assets/vmCtrl.jpeg" width="600" height="600"  alt="">
+    <img src="/assets/vmCtrl.jpeg" width="600"   alt="">
     <figcaption></figcaption>
 </figure>
 <figure>
-    <img src="/assets/v-center.jpeg" width="600" height="600"  alt="">
+    <img src="/assets/v-center.jpeg" width="600"   alt="">
     <figcaption></figcaption>
 </figure>
 <figure>
-    <img src="/assets/hyper-v.jpg" width="600" height="600"  alt="">
+    <img src="/assets/hyper-v.jpg" width="600"   alt="">
     <figcaption></figcaption>
 </figure>
 
