@@ -29,7 +29,7 @@ $ docker-machine ssh myvm2 "docker swarm join \
 
 ## docker node ls
 
-    在管理器上运行以查看此群中的节点：
+在管理器上运行以查看此群中的节点：
 
     $ docker-machine ssh myvm1 "docker node ls"
     ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS
@@ -52,6 +52,6 @@ $ docker-machine ssh myvm2 "docker swarm join \
 
     docker stack deploy -c docker-compose.yml getstartedlab
 ## bug 
-    如果本地镜像没有安装启动就会失败所以要执行
+如果本地镜像没有安装启动就会失败所以要执行
     $ docker pull brianchewson/get-started:part1
     $ docker-machine ssh myvm1 "docker pull brianchewson/get-started:part1"
