@@ -13,7 +13,7 @@
 ## [比较容器和虚拟化](/share/virtualization/docker-vs-xu-ni-ji.md)
 
 ```
-比较容器和虚拟化
+比较容器和虚拟机
 ```
 
 
