@@ -23,4 +23,5 @@
       * [vpn 例子](share/examples/vpn/README.md)
       * [TensorFlow 例子](share/examples/TensorFlow/README.md)
   * [学习资料](share/virtualization/xue-xi-zi-liao.md)
+  * [ppt](share/virtualization/ppt.md)
 
