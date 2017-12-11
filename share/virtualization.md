@@ -41,6 +41,5 @@ vs vm 更小，安装更容易更快、同一台宿主机器可以安装更多�
 容器可以转换成镜像--好处是不用dockerfile直接进入容器内部部署环境---
 
 
-https://www.slideshare.net/jpetazzo/docker-automation-for-the-rest-of-us?from_action=save
 
 
