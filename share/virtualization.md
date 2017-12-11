@@ -6,12 +6,6 @@ https://www.zhihu.com/question/22871084 ###docker出现之前的部署情况
 ## Docker 集装箱的理念和理解 --ppt
 https://www.zhihu.com/question/22871084
 
-### 问题1.Docker和VM如何选择，谁更好？
-    - 资源消耗上(存储、硬件等)
-    - 功能上
-    - 用户UI上
-    - 安全和隔离上
-
 ## Docker 容器的安装使用
 
 ### 安装
