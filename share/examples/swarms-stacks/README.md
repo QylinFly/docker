@@ -68,5 +68,6 @@ $ docker-machine ssh myvm2 "docker swarm join \
     docker stack deploy -c docker-compose.yml getstartedlab
 ## bug 
 如果本地镜像没有安装启动就会失败所以要执行
+
     $ docker pull brianchewson/get-started:part1
     $ docker-machine ssh myvm1 "docker pull brianchewson/get-started:part1"
