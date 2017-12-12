@@ -53,7 +53,7 @@ https://docs.docker.com/engine/admin/volumes/
 
 ## Docker-Compose
 
-    把琐碎的命令写成标准配置
+    把琐碎的命令写成标准配置，实际应用中几乎不会直接用上述命令去控制
 
 
 ## 容器基础镜像
