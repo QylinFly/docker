@@ -109,7 +109,9 @@ root
 
 ![](/assets/types-of-mounts-volume.png)
 
+## 挂载数据卷
 
+### 何时需要挂载宿主机目录？
 
 
 ### 修改nginx启动参数 例如开启gzip 
