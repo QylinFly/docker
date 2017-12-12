@@ -111,18 +111,19 @@ root
 ## [在Docker中管理数据](https://docs.docker.com/engine/admin/volumes/)
     https://docs.docker.com/engine/admin/volumes/
 
-
 ![](/assets/types-of-mounts-volume.png)
 
-docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
 
-localhost:~ qylinqylin$ docker stop my-nginx001
-my-nginx001
-localhost:~ qylinqylin$ docker rm my-nginx001
+### 修改nginx启动参数 例如开启gzip 
+    docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
+    
+    localhost:~ qylinqylin$ docker stop my-nginx001
+    my-nginx001
+    localhost:~ qylinqylin$ docker rm my-nginx001
 
-// 这些还不够，我们要加载我们的页面才可以
-docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples//nginx/html:/usr/share/nginx/html:ro -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine
-```
+### 这些还不够，我们要加载我们的页面才可以
+    docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples//nginx/html:/usr/share/nginx/html:ro -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine
+
 
 ## Dockerfile
 
