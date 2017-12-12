@@ -10,7 +10,12 @@
     
     $ docker stack rm getstartedlab
     $ docker swarm leave --force
-
+    
+Take down the app and the swarm
+Take the app down with docker stack rm:
+    docker stack rm getstartedlab
+Take down the swarm.
+    docker swarm leave --force
 
 # 集群服务
 
