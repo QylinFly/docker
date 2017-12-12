@@ -21,11 +21,18 @@
 # 集群服务
 
 ## 创建两台机器
-$ docker-machine create --driver virtualbox myvm1
-$ docker-machine create --driver virtualbox myvm2
+docker-machine使用VirtualBox驱动程序创建几个VM ：
+
+    $ docker-machine create --driver virtualbox myvm1
+    $ docker-machine create --driver virtualbox myvm2
+
 
 $ docker-machine ls
-
+    
+    $ docker-machine ls
+    NAME    ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS
+    myvm1   -        virtualbox   Running   tcp://192.168.99.100:2376           v17.06.2-ce   
+    myvm2   -        virtualbox   Running   tcp://192.168.99.101:2376           v17.06.2-ce   
 ## 初始化master
 $ docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"
 
