@@ -111,10 +111,6 @@ root
 
 ## 挂载数据卷
 
-### 何时需要挂载宿主机目录？
-
-
-
 ### 修改nginx启动参数 例如开启gzip 
     docker run -d --name my-nginx001 -p 5555:80 
     -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro 
