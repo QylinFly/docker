@@ -8,10 +8,9 @@
 
 ### 客户端代理
 
-  Mac:
-  https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9
-  Windows:
-  https://github.com/shadowsocks/shadowsocks-windows/releases
+
+[Mac](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9)
+[Windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
 
 ### Docker-compose 文件
