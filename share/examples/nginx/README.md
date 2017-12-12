@@ -115,7 +115,9 @@ root
 
 
 ### 修改nginx启动参数 例如开启gzip 
-    docker run -d --name my-nginx001 -p 5555:80 -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.13.7-alpine 
+    docker run -d --name my-nginx001 -p 5555:80 
+    -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro 
+    nginx:1.13.7-alpine 
     
     localhost:~ qylinqylin$ docker stop my-nginx001
     my-nginx001
