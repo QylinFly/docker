@@ -126,6 +126,8 @@ root
     -v /Users/qylinqylin/GitBook/Library/qylinfly/docker/share/examples/nginx/nginx.conf:/etc/nginx/nginx.conf:ro 
     nginx:1.13.7-alpine
 
+### 何时需要挂载宿主机目录？
+
 
 ## Dockerfile
 
