@@ -19,7 +19,6 @@
 
 [Android](https://github.com/shadowsocks/shadowsocks-android/releases)
 
-
 ### Docker-compose 文件
 
 ```
