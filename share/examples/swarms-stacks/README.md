@@ -3,11 +3,13 @@
 
 # 服务-负载均衡
 
-$ docker swarm init
-$ docker stack deploy -c docker-compose.yml getstartedlab
+运行新的负载平衡应用程序
 
-$ docker stack rm getstartedlab
-$ docker swarm leave --force
+    $ docker swarm init
+    $ docker stack deploy -c docker-compose.yml getstartedlab
+    
+    $ docker stack rm getstartedlab
+    $ docker swarm leave --force
 
 
 # 集群服务
