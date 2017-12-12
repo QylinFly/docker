@@ -104,14 +104,12 @@ root
 / #
 ```
 
-
-// 修改nginx启动参数 例如开启gzip 
-// 如何讲一个宿主计算机的文件和目录映射到容器
-// 何时需要挂载本地目录，
 ## [在Docker中管理数据](https://docs.docker.com/engine/admin/volumes/)
     https://docs.docker.com/engine/admin/volumes/
 
 ![](/assets/types-of-mounts-volume.png)
+
+
 
 
 ### 修改nginx启动参数 例如开启gzip 
