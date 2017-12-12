@@ -13,6 +13,8 @@
 
 [Windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
+[iOS](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help)
+
 
 ### Docker-compose 文件
 
