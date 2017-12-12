@@ -6,6 +6,7 @@
 ## 运行新的负载平衡应用程序
 
     $ docker swarm init
+    
     $ docker stack deploy -c docker-compose.yml getstartedlab
     
 ##Take down the app and the swarm
