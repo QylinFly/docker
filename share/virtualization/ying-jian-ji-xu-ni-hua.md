@@ -7,7 +7,7 @@
 5. 2001年：VMWare又发行了ESX和GSX，ESX-i的前身。
 6. 2003年：Connectix被微软收购，后续推出了Microsoft Virual PC。同年VMWare也被EMC收购，成为EMC迄今最成功的一笔收购。同年，一个开源的虚拟化项目**Xen**启动了，并在2007年被Citrix收购。
 7. windows10 Hyper-v
-
+8. Oracle VM VirtualBox
 <figure>
     <img src="/assets/vmCtrl.jpeg" width="600"   alt="">
     <figcaption></figcaption>
