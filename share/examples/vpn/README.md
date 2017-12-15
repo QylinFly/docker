@@ -35,3 +35,6 @@ server:
 ### 更多信息参见
 
 https://github.com/shadowsocks
+
+# ~在中国很多时候可能是墙限制了我们的想象力~
+
