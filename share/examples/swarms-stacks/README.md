@@ -9,6 +9,7 @@
     
     $ docker stack deploy -c docker-compose.yml getstartedlab
     
+    
 ##Take down the app and the swarm
 #### Take the app down with docker stack rm:
 
