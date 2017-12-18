@@ -35,7 +35,7 @@ $ docker-machine ls
     myvm1   -        virtualbox   Running   tcp://192.168.99.100:2376           v17.06.2-ce   
     myvm2   -        virtualbox   Running   tcp://192.168.99.101:2376           v17.06.2-ce   
 ## 初始化master
-$ docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"
+$ docker-machine ssh myvm1 "docker swarm init --advertise-addr {myvm1 ip}"
 
 ## 加入worker节点
 $ docker-machine ssh myvm2 "docker swarm join \
