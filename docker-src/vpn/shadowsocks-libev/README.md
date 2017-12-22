@@ -37,15 +37,16 @@ and low-end boxes.
 
 
 - docker-compose.yml
-        server:
-        image: linf/vpn-shadowsocks-libev
-        ports:
-        - "8388:8388/tcp"
-        - "8388:8388/udp"
-        environment:
-        - METHOD=aes-256-cfb
-        - PASSWORD=password
-        restart: always
-
+```yml
+server:
+  image: linf/vpn-shadowsocks-libev
+  ports:
+    - "8388:8388/tcp"
+    - "8388:8388/udp"
+  environment:
+    - METHOD=aes-256-cfb
+    - PASSWORD=5ouMnqPyzseL
+  restart: always
+```
 
 - Set socks5 proxy in your favorite web browser.
