@@ -8,12 +8,12 @@ and low-end boxes.
 
 ## How to use these images
 
-- Get [docker-compose.yml][7], then change `SERVER_ADDR` and `PASSWORD`.
+- Get docker-compose.yml, then change `SERVER_ADDR` and `PASSWORD`.
 
 - Run these commands:
 
         # On x86 server (1.2.3.4)
-        $ docker-compose up -d server
+        $ docker-compose up -d
 
         //客户端代理
         mac 
@@ -35,17 +35,16 @@ and low-end boxes.
         $ curl -x socks5h://192.168.1.234:1080 https://www.youtube.com/
         $ curl -x socks5h://192.168.1.254:1080 https://www.youtube.com/
 
+
+- docker-compose.yml
+        server:
+        image: this
+        ports:
+        - "8388:8388/tcp"
+        - "8388:8388/udp"
+        environment:
+        - METHOD=aes-256-cfb
+        - PASSWORD=5ouMnqPyzseL
+        restart: always
+
 - Set socks5 proxy in your favorite web browser.
-
-## Deploy without docker
-
-You can update your system with unsupported packages from this untrusted PPA by
-adding [ppa:max-c-lv/shadowsocks-libev][13] to your system's Software Sources.
-
-```bash
-sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev
-sudo apt-get update
-sudo apt-get install shadowsocks-libev
-```
-
-> Config file format: [config.json](https://shadowsocks.org/en/config/quick-guide.html)
