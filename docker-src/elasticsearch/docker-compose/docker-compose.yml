@@ -1,13 +1,13 @@
 version: '2'
 services:
   elasticsearch:
-    image: elasticsearch:6.1.1
+    image: linf/elasticsearch-zh:6.1.1
     ports:
       - "9200:9200"
       - "9300:9300"
     restart: always
     volumes:
-      - /Users/qylinqylin/GitBook/Library/qylinfly/docker/docker-src/elasticsearch/docker-compose/elasticsearch.yml:/usr/share/elasticsearch/config
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
       #- ./esdata:/usr/share/elasticsearch/data
 
   elasticsearch-head:
