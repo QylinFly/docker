@@ -6,8 +6,8 @@ services:
       - "9200:9200"
       - "9300:9300"
     restart: always
-    volumes:
-      - ./esdata:/usr/share/elasticsearch/data
+    #volumes:
+      #- ./esdata:/usr/share/elasticsearch/data
 
   elasticsearch-head:
     image: mobz/elasticsearch-head:5-alpine
