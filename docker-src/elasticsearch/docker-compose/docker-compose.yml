@@ -7,7 +7,7 @@ services:
       - "9300:9300"
     restart: always
     volumes:
-      - "$PWD/config":/usr/share/elasticsearch/config
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config
       #- ./esdata:/usr/share/elasticsearch/data
 
   elasticsearch-head:
