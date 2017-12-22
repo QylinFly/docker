@@ -3,8 +3,8 @@ services:
   elasticsearch:
     image: elasticsearch:6.1.1
     ports:
-      - "8443:8388/tcp"
-      - "8443:8388/udp"
+      - "9200:9200"
+      - "9300:9300"
     environment:
       - METHOD=aes-256-cfb
       - PASSWORD=nosmokinggoogle
