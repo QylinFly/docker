@@ -6,13 +6,13 @@
 version: '2'
 services:
   elasticsearch:
-    image: elasticsearch:6.1.1
+    image: linf/elasticsearch-zh:6.1.1
     ports:
       - "9200:9200"
       - "9300:9300"
     restart: always
     volumes:
-      - /Users/qylinqylin/GitBook/Library/qylinfly/docker/docker-src/elasticsearch/docker-compose/elasticsearch.yml:/usr/share/elasticsearch/config
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config
       #- ./esdata:/usr/share/elasticsearch/data
 
   elasticsearch-head:
@@ -30,7 +30,7 @@ http.host: 0.0.0.0
 # Uncomment the following lines for a production cluster deployment
 #transport.host: 0.0.0.0
 #discovery.zen.minimum_master_nodes: 1
-# 增加如下字段 解决head跨域连接问题 ！！！生产环节根据实际限制
+# 增加如下字段 解决elasticsearch-head跨域连接问题 ！！！生产环节根据实际限制
 http.cors.enabled: true
 http.cors.allow-origin: "*"
 ```
