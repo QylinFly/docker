@@ -5,9 +5,6 @@ services:
     ports:
       - "9200:9200"
       - "9300:9300"
-    environment:
-      - METHOD=aes-256-cfb
-      - PASSWORD=nosmokinggoogle
     restart: always
   
   elasticsearch-head:
