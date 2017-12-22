@@ -99,7 +99,9 @@ RUN rm elasticsearch-analysis-stconvert.zip
 
 COPY config ./config
 
-VOLUME /usr/share/elasticsearch/data
+#VOLUME /usr/share/elasticsearch/data
+#VOLUME /usr/share/elasticsearch/config
+VOLUME ["/usr/share/elasticsearch/data","/usr/share/elasticsearch/config"]
 
 COPY docker-entrypoint.sh /
 
