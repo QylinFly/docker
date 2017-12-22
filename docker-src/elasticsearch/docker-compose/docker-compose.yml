@@ -8,7 +8,7 @@ services:
     restart: always
     volumes:
       - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
-      #- ./esdata:/usr/share/elasticsearch/data
+      - ./esdata:/usr/share/elasticsearch/data
 
   elasticsearch-head:
     image: mobz/elasticsearch-head:5-alpine
