@@ -7,7 +7,7 @@ services:
       - "9300:9300"
     restart: always
     volumes:
-      - ./elasticsearch.yml:/usr/share/elasticsearch/config/
+      - /Users/qylinqylin/GitBook/Library/qylinfly/docker/docker-src/elasticsearch/docker-compose/elasticsearch.yml:/usr/share/elasticsearch/config
       #- ./esdata:/usr/share/elasticsearch/data
 
   elasticsearch-head:
